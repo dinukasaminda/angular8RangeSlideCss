@@ -1,0 +1,29 @@
+$background-color: #111111;
+$handler-color: #b71c1c;
+.d-range-slider-cont {
+}
+.d-range-slider-cont-bar {
+  height: 2px;
+  border-radius: 3px;
+  background-color: $background-color;
+}
+
+.dot-handler {
+  background-color: $handler-color;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  position: relative;
+  top: -8px;
+  left: 50%;
+}
+.right-handler {
+  top: -24px;
+  // background-color: #fefe00;
+}
+// .dot-handler:hover {
+//   width: 14px;
+//   height: 14px;
+//   border-radius: 14px;
+//   top: -8px;
+// }

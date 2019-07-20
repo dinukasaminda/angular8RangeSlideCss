@@ -1,0 +1,15 @@
+<div class="d-range-slider-cont">
+  <div class="d-range-slider-cont-bar" [id]="sliderBarId"></div>
+  <div
+    class="left-handler dot-handler"
+    [id]="dotHandlerId1"
+    (mousedown)="onMouseDown($event, 'left')"
+    (touchstart)="onTouchStart($event, 'left')"
+  ></div>
+  <div
+    class="right-handler dot-handler "
+    [id]="dotHandlerId2"
+    (mousedown)="onMouseDown($event, 'right')"
+    (touchstart)="onTouchStart($event, 'right')"
+  ></div>
+</div>
